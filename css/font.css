@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Karantina', cursive; */
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  font-size: 12px;
+  font-weight: 900;
+  color: white;
+}
