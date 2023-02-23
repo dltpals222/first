@@ -39,12 +39,10 @@ hr {
 header{
   text-align: center;
   height: 10vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding-top:4vh;
+  display: grid;
+  grid-template: 1fr,1fr/repeat(5,1fr);
 }
+
 
 /* 네비부분 */
 nav{
