@@ -5,31 +5,49 @@
   box-sizing: border-box;
 }
 
-/* 공통부분 제거 */
+/* 공통부분 적용 */
 #root > header, nav, section, footer {
   width: 100vw;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 파란색 백그라운드 적용 */
 #root > header, footer{
   background-color: #2196F3;
 }
 
+/* 같은 높이 부모 적용 */
 #root > nav, footer {
   height: 20vh;
 }
 
+ul{
+  margin:10%;
+  list-style-type: none;
+}
+
+hr {
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+/* 머리부분 */
 header{
   text-align: center;
   height: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items:baseline;
+  align-items: center;
+  padding-top:4vh;
 }
 
-header > * {
-}
-
+/* 네비부분 */
 nav{
   background-color:#F0F0F0 ;
+
 }
