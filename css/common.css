@@ -16,7 +16,7 @@
 }
 
 /* 파란색 백그라운드 적용 */
-#root > header, footer{
+#root > header, section > article:nth-child(2){
   background-color: #2196F3;
 }
 
@@ -25,11 +25,13 @@
   height: 20vh;
 }
 
+/* ul태그 스타일 */
 ul{
   margin-left: 5vw;
   list-style-type: none;
 }
 
+/* 선 스타일 */
 hr {
   margin-top: 0.5vh;
   margin-bottom: 0.5vh;
@@ -65,3 +67,35 @@ nav{
   justify-content: center;
 }
 
+/* 네비부분 여백설정 */
+nav > ul > li {
+  margin:0.3vh 0 0.3vh 0
+}
+
+article:nth-child(1){
+  width: 430px;
+  height: 70vh;
+}
+
+
+article:nth-child(2){
+  height:80vh;
+  display:grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns:3fr 1fr ;
+  align-items: center; 
+}
+
+article:nth-child(2) > ul {
+  grid-area:2;
+}
+
+article:nth-child(2) > div {
+  grid-area:2/2;
+}
+
+
+
+footer {
+  display: flex;
+}

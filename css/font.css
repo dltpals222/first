@@ -1,4 +1,4 @@
-/* 폰트 관련된 모든것 적용 */
+/* 공통된 폰트 관련된 모든것 적용 */
 
 @import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
 
@@ -6,9 +6,12 @@
 
 /* font-family: 'Inter', sans-serif; */
 /* font-family: 'Karantina', cursive; */
+
+/* 폰트 전체적용 */
 *{
   font-family: 'Inter', sans-serif;
 }
+
 
 header {
   font-size: 12px;
@@ -22,16 +25,29 @@ nav, article > div {
 }
 
 article:nth-child(1) > ul {
+  color:#2196F3;
+}
+
+article:nth-child(1) > ul:nth-child(1) {
   font-size: 96px;
   font-weight: 700;
 }
 
-.color-blue {
-  color:#2196F3;
+article:nth-child(1) > ul:nth-child(2) > li:nth-child(1){
+  text-align: center;
 }
 
-article:nth-child(2) > ul {
+
+.color-black {
+  color:#000000;
+}
+
+article:nth-child(2) > * {
   color: #FFFFFF;
+}
+
+article:nth-child(2) > div {
+  font-size: 4em;
 }
 
 article:nth-child(2) > ul > li{
