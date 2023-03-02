@@ -94,7 +94,11 @@ article:nth-child(2) > div {
   grid-area:2/2;
 }
 
-
+article:nth-child(2)>hr {
+  grid-area: 3;
+  align-self: start;
+  margin-left: 5vw;
+}
 
 footer {
   display: flex;
