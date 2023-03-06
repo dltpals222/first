@@ -1,0 +1,19 @@
+@media screen and (min-width:431px) {
+  header > div:nth-child(2) {
+    display: none;
+  }
+  
+  article:nth-child(1) {
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article:nth-child(1) > ul:nth-child(1) {
+    grid-area: 1;
+  }
+  article:nth-child(1) > ul:nth-child(2) {
+    grid-area: 2;
+  }
+}
