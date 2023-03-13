@@ -16,4 +16,16 @@
   article:nth-child(1) > ul:nth-child(2) {
     grid-area: 2;
   }
+
+  article:nth-child(2) {
+    height: 100vh;
+  }
+  article:nth-child(2) > hr {
+    grid-column: span 3;
+    width: 90vw;
+
+  }
+
+  article:nth-child(2) > div {
+  }
 }
