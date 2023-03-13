@@ -88,8 +88,8 @@ article:nth-child(1) > ul:nth-child(2) > li:nth-child(1){
 article:nth-child(2){
   height:80vh;
   display:grid;
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-template-columns:3fr 1fr ;
+  grid-template-rows: 1fr 0fr 1fr;
+  grid-template-columns:0fr 1fr 1fr ;
   align-items: center; 
 }
 
@@ -113,7 +113,7 @@ footer {
   background-color: #333333;
 }
 
-footer > ul > hr {
+footer > ul > li > hr {
   width: 90vw;
   margin-right: 5vw;
 }
